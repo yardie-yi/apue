@@ -1,4 +1,13 @@
 #!/bin/bash
+
+read -p "你是谁呀：" name
+if [ "$name" = "HJW" ] || [ "$name" = "胡靖雯" ];then
+	echo "原来是宝宝呀！超爱你哦，看我给你画个心心~~~~~"
+else
+	echo "不认识！！！再见！"
+	exit
+fi
+
 t=0.5
 for ((x=0; x<=4; x++)); do
     var1="     "
